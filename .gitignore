@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Data and model artifacts (keep large/private datasets out of Git)
+data/
+datasets/
+*.zip
+*.h5
+*.keras
+*.weights.h5
+*.pkl
+*.joblib
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
